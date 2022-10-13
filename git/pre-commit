@@ -6,7 +6,6 @@ if !([ $? -eq 0 ]); then
 fi
  
 if !(golangci-lint run --timeout=10m); then
-    echo "Lint fail!"
     exit 1
 fi
  
