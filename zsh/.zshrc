@@ -108,5 +108,3 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ws="cd ~/workspace"
 alias km="kubecm"
-
-source <(kubectl completion zsh)
