@@ -108,3 +108,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ws="cd ~/workspace"
 alias km="kubecm"
+alias mc="glab mr create -f -y -b"
+alias mm="glab mr merge -y"
