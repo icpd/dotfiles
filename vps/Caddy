@@ -1,3 +1,4 @@
+# /etc/caddy/Caddy
 {
 	email username@mail.com
 	auto_https disable_redirects
