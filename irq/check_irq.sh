@@ -3,6 +3,9 @@
 # 检查是否提供了网卡名参数
 if [ -z "$1" ]; then
     echo "Usage: $0 <network_interface>"
+    echo "Available network interfaces:"
+    # 列出当前机器的网卡选项
+    ip link show | awk -F: '/^[0-9]+: / {print $2}' | tr -d ' '
     exit 1
 fi
 
