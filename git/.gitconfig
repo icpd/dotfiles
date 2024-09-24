@@ -1,0 +1,9 @@
+[url "ssh://git@gitlab.test.com/"]
+	insteadOf = http://gitlab.test.com/
+
+[user]
+	name = icpd
+	email = 35096485+icpd@users.noreply.github.com
+
+[includeIf "gitdir:/workspace/gitlab/"]
+    path = /workspace/gitlab/.gitconfig
