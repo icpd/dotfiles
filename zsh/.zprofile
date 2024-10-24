@@ -8,3 +8,6 @@ export PATH="$PATH:/Users/lewis/Library/Application Support/JetBrains/Toolbox/sc
 
 # Set PATH, MANPATH, etc., for Homebrew.
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# fnm env
+eval "$(fnm env --use-on-cd --shell zsh)"
