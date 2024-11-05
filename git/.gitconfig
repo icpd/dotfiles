@@ -5,5 +5,5 @@
 	name = icpd
 	email = 35096485+icpd@users.noreply.github.com
 
-[includeIf "gitdir:/workspace/gitlab/"]
-	path = /workspace/gitlab/.gitconfig
+[includeIf "gitdir:/Users/x/workspace/gitlab/"]
+    path = /Users/x/workspace/gitlab/.gitconfig
