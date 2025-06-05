@@ -2,7 +2,7 @@
 	name = icpd
 	email = 35096485+icpd@users.noreply.github.com
 
-[url "ssh://git@gitlab.test.com/"]
+[url "git@gitlab.test.com:"]
 	insteadOf = http://gitlab.test.com/
 
 [includeIf "gitdir:/Users/x/workspace/gitlab/"]
